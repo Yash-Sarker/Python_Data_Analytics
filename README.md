@@ -21,7 +21,7 @@ plt.show()
 ```
 ### Results
 
-![Visualization of Top Skills for Job Seekers in the Data Industry](Data Analytics Project with Python/images/skill_demand_all_data_roles.png)
+![Visualization of Top Skills for Job Seekers in the Data Industry](Data%20Analytics%20Project%20with%20Python/images/skill_demand_all_data_roles.png)
 
 ### Insights
 
