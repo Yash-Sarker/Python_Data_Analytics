@@ -121,3 +121,32 @@ In-demand skills for data analysts in the US:
 - The bottom graph highlights that foundational skills like 'SQL', 'Excel', and 'PowerPoint' are the most in-demand, even though they may not offer the highest salaries. This demonstrates the importance of these core skills for employability in data analysis roles.
 
 - There's a clear distinction between the skills that are paid the most and those that are most in-demand. Data analysts aiming to maximize their career potential should consider developing a diverse skill set that includes both high-paying specialized skills and widely demanded foundational skills.
+
+## 4. What is the most optimal skill to learn for Data Analysts?
+
+#### Visualize Data
+
+```python
+
+from matplotlib.ticker import PercentFormatter
+ax = plt.gca()
+ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda y, pos: f'${int(y/1000)}K'))
+ax.xaxis.set_major_formatter(PercentFormatter(decimals=0))
+
+plt.xlabel('Percent of Data Analyst Jobs')
+plt.ylabel('Median Yearly Salary($USD)')
+plt.title('Most Optimal Skills for Data Analysts in the US')
+plt.tight_layout()
+plt.show()
+
+```
+#### Results
+
+![Most Optimal Skills for Data Analysts in the US](Data%20Analytics%20Project%20with%20Python\images\most_optimal_skill_for_data_analysts_with_coloring_for_technology.png)
+*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
+
+- The scatter plot shows that most of the `programming` skills (colored blue) tend to cluster at higher salary levels compared to other categories, indicating that programming expertise might offer greater salary benefits within the data analytics field.
+
+- Analyst tools (colored green), including Tableau and Power BI, are prevalent in job postings and offer competitive salaries, showing that visualization and data analysis software are crucial for current data roles. This category not only has good salaries but can also be deemed versatile across several types of data tasks.
+
+- The database skills (colored orange), such as Oracle and SQL Server, are associated with some of the highest salaries among data analyst tools. This indicates a significant demand and valuation for data management and manipulation expertise in the industry.
